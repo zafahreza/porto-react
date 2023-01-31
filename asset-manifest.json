@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/porto-react/static/css/main.5d01cf55.css",
+    "main.js": "/porto-react/static/js/main.f8e5e2cd.js",
+    "static/media/mongodb.png": "/porto-react/static/media/mongodb.6170bacefd8a1f69ca74.png",
+    "static/media/heroImage.png": "/porto-react/static/media/heroImage.be11daa66de47d6e9925.png",
+    "static/media/rabbit-mq.png": "/porto-react/static/media/rabbit-mq.59c6970534ca124f0e3d.png",
+    "static/media/mysql.png": "/porto-react/static/media/mysql.6e42b2a035b28f240021.png",
+    "static/media/gcp.png": "/porto-react/static/media/gcp.a962ee504261cf10a1a7.png",
+    "static/media/github.png": "/porto-react/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/postgres.png": "/porto-react/static/media/postgres.6c5d698f195dac2fe5af.png",
+    "static/media/golang.png": "/porto-react/static/media/golang.6a3cd1884425f3b03c7d.png",
+    "static/media/kafka.png": "/porto-react/static/media/kafka.f0e062a825341bc3f035.png",
+    "static/media/redis.png": "/porto-react/static/media/redis.52a85440d0cb10638fe8.png",
+    "static/media/docker.webp": "/porto-react/static/media/docker.97f28ff91e8bcb695d21.webp",
+    "static/media/es.svg": "/porto-react/static/media/es.16b06d4190929020f8cfddcb391a42a1.svg",
+    "index.html": "/porto-react/index.html",
+    "main.5d01cf55.css.map": "/porto-react/static/css/main.5d01cf55.css.map",
+    "main.f8e5e2cd.js.map": "/porto-react/static/js/main.f8e5e2cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d01cf55.css",
+    "static/js/main.f8e5e2cd.js"
+  ]
+}
