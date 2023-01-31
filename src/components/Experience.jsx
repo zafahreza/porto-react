@@ -1,62 +1,83 @@
 import React from "react";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import golang from "../assets/golang.png";
+import postgres from "../assets/postgres.png";
+import mysql from "../assets/mysql.png";
+import mongodb from "../assets/mongodb.png";
+import redis from "../assets/redis.png";
+import kafka from "../assets/kafka.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
+import docker from "../assets/docker.webp";
+import es from "../assets/es.svg";
+import rabbitmq from "../assets/rabbit-mq.png";
+import gcp from "../assets/gcp.png";
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: golang,
+      title: "GO Programming Language",
+      style: "shadow-cyan-500",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
+      src: docker,
+      title: "Docker Container",
       style: "shadow-blue-500",
     },
     {
       id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
+      src: postgres,
+      title: "PostgreSQL",
+      style: "shadow-blue-500",
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-orange-500",
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-400",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: redis,
+      title: "Redis",
+      style: "shadow-red-400",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: kafka,
+      title: "Apache Kafka",
+      style: "shadow-gray-400",
     },
     {
       id: 8,
+      src: rabbitmq,
+      title: "RabbitMQ",
+      style: "shadow-orange-600",
+    },
+    {
+      id: 9,
+      src: es,
+      title: "Elasticsearch",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 10,
+      src: gcp,
+      title: "Google Cloud Platform",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 11,
       src: github,
-      title: "GitHub",
+      title: "Github",
       style: "shadow-gray-400",
     },
   ];
@@ -64,9 +85,9 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-fit md:h-screen"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div name="exp-title" className="max-w-screen-lg mx-auto  p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
